@@ -4,8 +4,8 @@ pipeline {
     stage('Checkout') {
       steps {
         git(
-          url: 'https://github.com/gauravkr0007/E-Commerce-projects.git',
-          //credentialsId: 'github-creds', // Match your credential ID
+          url: 'git@github.com:gauravkr0007/E-Commerce-projects.git',
+          credentialsId: 'github-creds', // Match your credential ID
           branch: 'main'
         )
       }
