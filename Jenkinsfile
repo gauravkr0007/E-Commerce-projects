@@ -4,7 +4,7 @@ pipeline {
     stage('Checkout') {
       steps {
         git(
-          url: 'git@github.com:your-username/django-app.git',
+          url: 'https://github.com/gauravkr0007/E-Commerce-projects.git',
           credentialsId: 'github-creds', // Match your credential ID
           branch: 'main'
         )
