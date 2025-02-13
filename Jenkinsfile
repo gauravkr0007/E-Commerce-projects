@@ -11,4 +11,15 @@ pipeline {
       }
     }
   }
+  post {
+        always {
+            echo 'Job finished!'
+        }
+        success {
+            echo 'Job succeeded!'
+        }
+        failure {
+            echo 'Job failed!'
+        }
+    }
 }
