@@ -5,7 +5,7 @@ pipeline {
       steps {
         git(
           url: 'https://github.com/gauravkr0007/E-Commerce-projects.git',
-          credentialsId: 'github-creds', // Match your credential ID
+          //credentialsId: 'github-creds', // Match your credential ID
           branch: 'main'
         )
       }
